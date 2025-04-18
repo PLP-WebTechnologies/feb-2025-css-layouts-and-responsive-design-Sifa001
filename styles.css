@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #2c3e50;
+  color: white;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e0039;
+  color:aliceblue;
+}
+
+img{
+  width: 50%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(142, 122, 255);
+  }
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap:40px;
+  padding: 100px;
+}
+
+.html{
+  background-color: #a247f1;
+  color: aliceblue;
+}
+.css{
+  background-color: #9269b4;
+  background-color: ;
+  color: aliceblue;
+}
+.python{
+  background-color: #a247f1;
+  color: aliceblue;
+}
+.mysql{
+  background-color: #9269b4;
+  color: aliceblue;
+}
